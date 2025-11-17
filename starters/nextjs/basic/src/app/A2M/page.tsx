@@ -26,7 +26,7 @@ export default function Page() {
             <summary> Click this to confirm you have read the text and to proceed with using the tool. </summary>
             <br/>
   			<div>
-  				<label for="fileupload" className="custom-file-upload">
+  				<label className="custom-file-upload">
   					Upload Your File
   				</label>
   				<input id="fileupload" type="file" accept="audio/wav" />

@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className="content">
       <h1 className="heading">Next.js on Firebase App Hosting</h1>
+      <h2> hi its akile </h2>
       <p>{message}</p>
 
       <section className="features">

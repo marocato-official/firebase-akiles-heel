@@ -5,7 +5,7 @@ export default function Page() {
     <main className="content">
       <div id="posts">
         <div id="post1">
-          <h1> &lt; A2M &gt; </h1>
+          <h1> A2M </h1>
           <p> Processes an audio file of a song into a midi file. </p>
           <p> <b>NO GENERATIVE AI</b> WAS OR IS USED. </p>
           <br/>

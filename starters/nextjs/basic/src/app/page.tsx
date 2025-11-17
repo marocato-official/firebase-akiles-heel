@@ -6,9 +6,9 @@ export default function Home() {
     <main className="content">
       <div id="posts">
         <div>
-          <h1> &lt; NEWS &gt; </h1>
+          <h1> NEWS </h1>
           <img src="https://i.imgur.com/AeDlNOd.png" width="100%"/>
-          <br><br>
+          <br/><br/>
           <h2> Project Prototype Release: A2M (Audio-to-MIDI) </h2>
           <p> Audio File to MIDI tool. Intended for single-track recordings. Currently available online and as a downloadable .exe file. </p>
           <p> Use the online version{" "}<Link href="/A2M">here</Link>{" "}! (Redirects to a different page on this website.)</p>

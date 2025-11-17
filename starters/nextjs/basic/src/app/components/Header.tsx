@@ -19,9 +19,11 @@ export function Header() {
       <header className="header">
         <div id="header">
           <div id="headerdh1">
-            <Link href="/">
-              akiles_heel
-            </Link>
+            <h2>
+              <Link href="/">
+                akiles_heel
+              </Link>
+            </h2>
             <button>≡</button>
           </div>
         </div>

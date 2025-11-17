@@ -2,29 +2,29 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <>
+    <main className="content">
       <div id="posts">
         <div id="post1">
           <h1> &lt; A2M &gt; </h1>
           <p> Processes an audio file of a song into a midi file. </p>
           <p> <b>NO GENERATIVE AI</b> WAS OR IS USED. </p>
-          <br>
+          <br/>
           <h3> Notes: </h3>
           <div className="tab">
 			<p> Intended for vocals only or single instrument audio. Multi-instrument audio files will confuse the pitch detection. </p>
 		  </div>
-		  <br>
+		  <br/>
 		  <div className="tab">
 			<p> Only works with .wav files. </p>
 		  </div>
-		  <br>
+		  <br/>
 		  <div className="tab">
 			<p> Libraries used: pitchwriter.js, midiwriter.js </p>
 		  </div>
-		  <br>
+		  <br/>
           <details>
             <summary> Click this to confirm you have read the text and to proceed with using the tool. </summary>
-            <br>
+            <br/>
   			<div>
   				<label for="fileupload" className="custom-file-upload">
   					Upload Your File
@@ -34,6 +34,6 @@ export default function Page() {
           </details>
         </div>
       </div>
-    </>
+    <main/>
   );
 }

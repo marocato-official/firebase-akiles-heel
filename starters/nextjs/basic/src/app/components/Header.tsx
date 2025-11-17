@@ -19,7 +19,9 @@ export function Header() {
       <header className="header">
         <div id="header">
           <div id="headerdh1">
-            <h1 onclick="location.href='../index.html'">akiles_heel</h1>
+            <Link href="/">
+              akiles_heel
+            </Link>
             <button>≡</button>
           </div>
         </div>

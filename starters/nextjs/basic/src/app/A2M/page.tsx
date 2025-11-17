@@ -34,6 +34,6 @@ export default function Page() {
           </details>
         </div>
       </div>
-    <main/>
+	</main>
   );
 }

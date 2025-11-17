@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="content">
+    <>
       <div id="posts">
         <div id="post1">
           <h1> &lt; A2M &gt; </h1>
@@ -34,6 +34,6 @@ export default function Page() {
           </details>
         </div>
       </div>
-    </main>
+    </>
   );
 }

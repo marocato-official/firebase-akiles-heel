@@ -113,6 +113,16 @@ h1, h2, h3, p {
 	margin:0;
 }
 
+h2 > a {
+	color: white;
+	font-size: 4vh;
+	margin:0;
+}
+
+h2 > a:hover {
+	color: black;
+}
+
 .tab {
 	border-left: 2px solid MediumSeaGreen;
 	padding-left: 1em;
@@ -236,6 +246,10 @@ select, option  {
 	}
 	
 	#posts > div > h2 {
+		font-size: 8vh;
+	}
+
+	h2 > a {
 		font-size: 8vh;
 	}
 	

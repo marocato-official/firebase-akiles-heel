@@ -38,7 +38,15 @@ export default function Home() {
 		  </div>
 		  <br/>
         </div>
-        
+
+		<div>
+		  <h2> {"<"} About Me {">"} </h2>
+		  <p> Hi, I'm Maro Akile! I use masculine and neutral pronouns. Please refer to me as a boy, not a girl or woman. </p>
+		  <p> I live in the Philippines, which uses the GMT+8 timezone. </p>
+		  <br>
+		  <p> <b> My interests: </b> programming, biology, genetics, linguistics, vocal synths, birds, drawing </p>
+		  <p> <b> Media I like: </b> Skyrim </p>
+		</div>
       </div>
     </main>
   );

@@ -18,22 +18,25 @@ export default function Home() {
           <h2> &lt; Projects &gt; </h2>
           
           <div className="tab">
-  					<h3> Lunti CVVC </h3>
-  					<p> <b>STATUS:</b> IN DEVELOPMENT </p>
-  					<p> An English CVVC X-SAMPA UTAU voicebank. </p>
-				  </div>
+  			<h3> Lunti CVVC </h3>
+  			<p> <b>STATUS:</b> IN DEVELOPMENT </p>
+  			<p> An English CVVC X-SAMPA UTAU voicebank. </p>
+		  </div>
+		  <br/>
 
           <div className="tab">
-  					<h3> Quill for TalonVoice </h3>
-  					<p> <b>STATUS:</b> ABANDONED {" "} <Link href="https://github.com/marocato-official/talonvoice-quill">github</Link> </p>
-  					<p> A module for TalonVoice. Made for a friend. </p>
-				  </div>
+  			<h3> Quill for TalonVoice </h3>
+  			<p> <b>STATUS:</b> ABANDONED {" "} <Link href="https://github.com/marocato-official/talonvoice-quill">github</Link> </p>
+  			<p> A module for TalonVoice. Made for a friend. </p>
+		  </div>
+		  <br/>
 
           <div className="tab">
-  					<h3> A2M (Audio-to-MIDI) </h3>
-  					<p> <b>STATUS:</b> PROTOTYPE {" "}<Link href="/A2M">online</Link> {" "}<Link href="https://akiles-heel.itch.io/a2m-audio-to-midi-wip">itch</Link> </p>
-  					<p> Audio to MIDI tool. </p>
-				  </div>
+  			<h3> A2M (Audio-to-MIDI) </h3>
+  			<p> <b>STATUS:</b> PROTOTYPE {" "}<Link href="/A2M">online</Link> {" "}<Link href="https://akiles-heel.itch.io/a2m-audio-to-midi-wip">itch</Link> </p>
+  			<p> Audio to MIDI tool. </p>
+		  </div>
+		  <br/>
         </div>
         
       </div>

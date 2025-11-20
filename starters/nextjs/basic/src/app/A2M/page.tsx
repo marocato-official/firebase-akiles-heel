@@ -33,6 +33,11 @@ export default function Page() {
   			</div>
           </details>
         </div>
+
+		<div>
+		
+		
+		</div>
       </div>
 	</main>
   );

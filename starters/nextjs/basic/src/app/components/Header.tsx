@@ -10,11 +10,6 @@ export function Header() {
 
   return (
     <>
-      {pathname !== "/" && (
-        <Link className="button back-button" href="/">
-          <Arrow /> Back to home
-        </Link>
-      )}
 
       <header className="header">
         <div id="header">
